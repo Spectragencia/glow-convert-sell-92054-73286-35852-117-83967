@@ -11,19 +11,19 @@ const FAQ = () => {
   const faqs = [
     {
       question: "Como funciona o período de teste?",
-      answer: "Oferecemos um POC (Prova de Conceito) de 30 dias completamente gratuito. Durante este período, você tem acesso completo a todas as funcionalidades da plataforma sem necessidade de cadastrar cartão de crédito."
+      answer: "Oferecemos um POC (Prova de Conceito) completamente gratuito. Durante este período, você tem acesso completo a todas as funcionalidades da plataforma sem necessidade de cadastrar cartão de crédito."
     },
     {
       question: "Preciso de conhecimentos técnicos para usar?",
       answer: "Não! Nossa plataforma foi desenvolvida para ser intuitiva e fácil de usar. Além disso, oferecemos suporte humano em tempo real para ajudar em qualquer dúvida."
     },
     {
-      question: "Como a IA identifica os pacientes ideais?",
-      answer: "Nossa IA analisa dados de redes sociais, comportamento online e padrões de engajamento para identificar pessoas que se encaixam no perfil ideal de paciente para sua clínica, aumentando as chances de conversão."
+      question: "O atendimento é personalizado para minha clínica?",
+      answer: "Sim! Nosso sistema é totalmente personalizável. Você pode ajustar detalhes específicos do atendimento, abordagem e comunicação de acordo com o perfil e as necessidades da sua clínica, garantindo que cada interação reflita a identidade do seu negócio."
     },
     {
-      question: "Posso cancelar a qualquer momento?",
-      answer: "Sim! Não trabalhamos com contratos de fidelidade. Você pode cancelar o serviço a qualquer momento, sem burocracias ou taxas de cancelamento."
+      question: "Como funcionam os contratos?",
+      answer: "Trabalhamos com contratos de fidelidade que garantem o melhor custo-benefício e continuidade do serviço. Nossa equipe está disponível para esclarecer os detalhes e condições contratuais que melhor se adequam à sua clínica."
     },
     {
       question: "Como é feita a integração com minha agenda?",
