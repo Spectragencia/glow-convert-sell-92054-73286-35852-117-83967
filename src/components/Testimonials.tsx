@@ -152,10 +152,15 @@ const Testimonials = () => {
               <div className="text-xl md:text-2xl font-medium mb-8 text-convrt-light">
                 "{testimonials[0].quote}"
               </div>
-              <div className="mt-auto">
-                <div className="font-medium text-convrt-light">{testimonials[0].name}</div>
-                <div className="text-convrt-light/60 text-sm">{testimonials[0].title}</div>
-                <div className="text-convrt-accent text-sm mt-1">{testimonials[0].company}</div>
+              <div className="mt-auto flex items-center gap-3">
+                <div className="w-12 h-12 rounded-full bg-gradient-to-br from-convrt-primary to-convrt-accent flex-shrink-0 flex items-center justify-center text-white font-semibold">
+                  {testimonials[0].name.split(' ').map(n => n[0]).join('')}
+                </div>
+                <div>
+                  <div className="font-medium text-convrt-light">{testimonials[0].name}</div>
+                  <div className="text-convrt-light/60 text-sm">{testimonials[0].title}</div>
+                  <div className="text-convrt-accent text-sm mt-1">{testimonials[0].company}</div>
+                </div>
               </div>
             </div>
           </motion.div>
@@ -172,10 +177,15 @@ const Testimonials = () => {
               <div className="text-xl md:text-2xl font-medium mb-8 text-convrt-light">
                 "{testimonials[1].quote}"
               </div>
-              <div className="mt-auto">
-                <div className="font-medium text-convrt-light">{testimonials[1].name}</div>
-                <div className="text-convrt-light/60 text-sm">{testimonials[1].title}</div>
-                <div className="text-convrt-accent text-sm mt-1">{testimonials[1].company}</div>
+              <div className="mt-auto flex items-center gap-3">
+                <div className="w-12 h-12 rounded-full bg-gradient-to-br from-convrt-hover to-convrt-accent flex-shrink-0 flex items-center justify-center text-white font-semibold">
+                  {testimonials[1].name.split(' ').map(n => n[0]).join('')}
+                </div>
+                <div>
+                  <div className="font-medium text-convrt-light">{testimonials[1].name}</div>
+                  <div className="text-convrt-light/60 text-sm">{testimonials[1].title}</div>
+                  <div className="text-convrt-accent text-sm mt-1">{testimonials[1].company}</div>
+                </div>
               </div>
             </div>
           </motion.div>
