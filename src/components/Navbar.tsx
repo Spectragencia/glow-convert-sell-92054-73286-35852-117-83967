@@ -30,7 +30,7 @@ const Navbar = () => {
         <div className="h-full flex items-center justify-between">
         <div className="flex items-center">
           <a href="/" className="flex items-center">
-            <img src={spectraLogo} alt="Spectra OS" className="h-14 md:h-16 w-auto" />
+            <img src={spectraLogo} alt="Spectra OS" className="h-16 md:h-20 w-auto" />
           </a>
         </div>
         
