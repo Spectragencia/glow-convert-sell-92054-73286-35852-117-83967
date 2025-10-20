@@ -1,7 +1,7 @@
-
 import React, { useState, useEffect } from 'react';
 import { cn } from '@/lib/utils';
 import { Menu, X } from 'lucide-react';
+import spectraLogo from '@/assets/spectra-logo.png';
 
 const Navbar = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -30,7 +30,7 @@ const Navbar = () => {
         <div className="h-full flex items-center justify-between">
         <div className="flex items-center">
           <a href="/" className="flex items-center">
-            <span className="text-2xl font-bold text-convrt-light">Spectra OS</span>
+            <img src={spectraLogo} alt="Spectra OS" className="h-10 md:h-12 w-auto" />
           </a>
         </div>
         
