@@ -90,10 +90,15 @@ const Testimonials = () => {
                 <div className="text-5xl font-bold mb-2 text-convrt-light">{stats[0].value}</div>
                 <div className="text-convrt-light/60">{stats[0].description}</div>
               </div>
-              <div className="mt-auto pt-6">
-                <div className="font-medium text-convrt-light">{stats[0].name}</div>
-                <div className="text-convrt-light/60 text-sm">{stats[0].title}</div>
-                <div className="text-convrt-accent text-sm mt-1">{stats[0].company}</div>
+              <div className="mt-auto pt-6 flex items-center gap-3">
+                <div className="w-12 h-12 rounded-full bg-gradient-to-br from-convrt-primary to-convrt-accent flex-shrink-0 flex items-center justify-center text-white font-semibold">
+                  {stats[0].name.split(' ').map(n => n[0]).join('')}
+                </div>
+                <div>
+                  <div className="font-medium text-convrt-light">{stats[0].name}</div>
+                  <div className="text-convrt-light/60 text-sm">{stats[0].title}</div>
+                  <div className="text-convrt-accent text-sm mt-1">{stats[0].company}</div>
+                </div>
               </div>
             </div>
           </motion.div>
@@ -111,10 +116,15 @@ const Testimonials = () => {
                 <div className="text-5xl font-bold mb-2 text-convrt-light">{stats[1].value}</div>
                 <div className="text-convrt-light/60">{stats[1].description}</div>
               </div>
-              <div className="mt-auto pt-6">
-                <div className="font-medium text-convrt-light">{stats[1].name}</div>
-                <div className="text-convrt-light/60 text-sm">{stats[1].title}</div>
-                <div className="text-convrt-accent text-sm mt-1">{stats[1].company}</div>
+              <div className="mt-auto pt-6 flex items-center gap-3">
+                <div className="w-12 h-12 rounded-full bg-gradient-to-br from-convrt-hover to-convrt-accent flex-shrink-0 flex items-center justify-center text-white font-semibold">
+                  {stats[1].name.split(' ').map(n => n[0]).join('')}
+                </div>
+                <div>
+                  <div className="font-medium text-convrt-light">{stats[1].name}</div>
+                  <div className="text-convrt-light/60 text-sm">{stats[1].title}</div>
+                  <div className="text-convrt-accent text-sm mt-1">{stats[1].company}</div>
+                </div>
               </div>
             </div>
           </motion.div>
@@ -132,10 +142,15 @@ const Testimonials = () => {
                 <div className="text-5xl font-bold mb-2 text-convrt-light">{stats[2].value}</div>
                 <div className="text-convrt-light/60">{stats[2].description}</div>
               </div>
-              <div className="mt-auto pt-6">
-                <div className="font-medium text-convrt-light">{stats[2].name}</div>
-                <div className="text-convrt-light/60 text-sm">{stats[2].title}</div>
-                <div className="text-convrt-accent text-sm mt-1">{stats[2].company}</div>
+              <div className="mt-auto pt-6 flex items-center gap-3">
+                <div className="w-12 h-12 rounded-full bg-gradient-to-br from-convrt-primary to-convrt-hover flex-shrink-0 flex items-center justify-center text-white font-semibold">
+                  {stats[2].name.split(' ').map(n => n[0]).join('')}
+                </div>
+                <div>
+                  <div className="font-medium text-convrt-light">{stats[2].name}</div>
+                  <div className="text-convrt-light/60 text-sm">{stats[2].title}</div>
+                  <div className="text-convrt-accent text-sm mt-1">{stats[2].company}</div>
+                </div>
               </div>
             </div>
           </motion.div>
